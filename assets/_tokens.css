@@ -11,7 +11,7 @@
   --dr-warn: oklch(78% 0.148 78);
   --dr-danger: oklch(70% 0.176 22);
   --dr-ok: oklch(76% 0.132 152);
-  --dr-dead: oklch(70% 0.176 22);
+  --dr-dead: oklch(56% 0.082 18);
   --dr-surface: oklch(20% 0.004 240);
   --dr-surface-raised: oklch(25% 0.006 240);
   --dr-ink: oklch(94% 0.004 240);
@@ -29,7 +29,7 @@
   --dr-warn: oklch(56% 0.152 62);
   --dr-danger: oklch(52% 0.196 22);
   --dr-ok: oklch(48% 0.134 152);
-  --dr-dead: oklch(52% 0.196 22);
+  --dr-dead: oklch(44% 0.088 18);
   --dr-surface: oklch(100% 0 0);
   --dr-surface-raised: oklch(97% 0.002 240);
   --dr-ink: oklch(20% 0.006 240);
