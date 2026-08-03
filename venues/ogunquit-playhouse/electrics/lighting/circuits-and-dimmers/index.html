@@ -884,14 +884,19 @@ so on divide the sheet; everything under one belongs to it until the next.</p>
 <p>The first column stays put when you scroll sideways, and so does the header, so
 a value eight columns to the right still tells you what it is and which circuit
 it belongs to. On a phone, swipe the table rather than turning it.</p>
+<!--
+=== ^^^ I want that to be true but it does not work on desktop at least. header and first column DO NOT freeze as scroll on the table.
+
+HOW DOES THIS MARKDOWN KNOW WHERE TO PASTE THE DATA IN THE RENDER???
+-->
 <div class="admonition warning">
 <p class="admonition-title">Blanks mean unknown, not empty</p>
 <p>A blank destination is a run nobody has traced, not a run that goes
 nowhere. <code>No Soca</code> in the notes column is different and does mean what it
 says: the dimmer exists in the rack with no soca run out of it.</p>
 </div>
-<div class="dr-data" markdown="0">
-<table>
+<div class="dr-data">
+<table class="dr-data__table">
 <thead><tr>
 <th></th>
 <th>Circuit #S</th>
@@ -2044,6 +2049,10 @@ says: the dimmer exists in the rack with no soca run out of it.</p>
 <p class="dr-data__source">129 rows &middot; <a href="circuits-and-dimmers.tsv" download>circuits-and-dimmers.tsv</a></p>
 </div>
 
+<!---
+oh, was it that line right there???? ^^^
+-->
+
 <h2 id="related">Related<a class="headerlink" href="#related" title="Permanent link">&para;</a></h2>
 <ul>
 <li><a href="../../../../../venues/ogunquit-playhouse/electrics/lighting/where-dimmers-run/">Where the dimmers run</a>, the field survey that checks this
@@ -2127,7 +2136,7 @@ says: the dimmer exists in the rack with no soca run out of it.</p>
       <div class="md-copyright">
   
     <div class="md-copyright__highlight">
-      <span class="buildstamp" title="Deployed 03 Aug 2026, 15:00 ET · engine e4681a4 · content c07ec4e">PR #3</span>
+      <span class="buildstamp" title="Deployed 03 Aug 2026, 15:11 ET · engine a6a5b1d · content bb66d7e">bb66d7e</span>
     </div>
   
   
