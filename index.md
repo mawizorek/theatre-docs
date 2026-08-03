@@ -9,22 +9,21 @@ revised: 2026-08
 
 # Theatre Notes
 
-General professional theatre practice: the things that are true regardless of
-which building you are standing in.
+Professional theatre practice and the venue records that go with it.
 
-## What belongs here, and what does not
+## What is here
 
-This is the deliberate counterpart to a venue site. A venue site documents ONE
-operation: its rooms, its power, its house rules. This one documents the CRAFT,
-so a venue page can point at a general practice instead of restating it and
-then slowly disagreeing with the last place that restated it.
+**Venues** are records of one building: its circuits, its rooms, its numbers.
+**Practice** is the craft, the part that is true regardless of which building
+you are standing in.
 
-The boundary is worth defending, because it is the one that will blur:
+Both live here, and the boundary runs between pages rather than between repos.
+That is deliberate: a venue page should be able to link to the general practice
+instead of restating it and then slowly disagreeing with the last place that
+restated it.
 
-- **Here:** how a thing is generally done, why a convention exists, vocabulary.
-- **Not here:** any figure, rule or contact that belongs to one building.
-
-If a page cannot be written without naming a specific venue, it is a venue page.
+- [Ogunquit Playhouse](@ogunquit-playhouse) — venue records, electrics
+- [Paper tech](@paper-tech) — general practice
 
 ## Writing for this site
 
@@ -34,7 +33,3 @@ states:
 
 - [The frontmatter contract](@template:frontmatter)
 - [Writing a page: callouts, tabs, tables](@template:writing)
-
-## Practice
-
-- [Paper tech](@paper-tech)
