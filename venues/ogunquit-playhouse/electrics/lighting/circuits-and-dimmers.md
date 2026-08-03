@@ -29,6 +29,11 @@ The first column stays put when you scroll sideways, and so does the header, so
 a value eight columns to the right still tells you what it is and which circuit
 it belongs to. On a phone, swipe the table rather than turning it.
 
+<!--
+=== ^^^ I want that to be true but it does not work on desktop at least. header and first column DO NOT freeze as scroll on the table.
+
+HOW DOES THIS MARKDOWN KNOW WHERE TO PASTE THE DATA IN THE RENDER???
+-->
 !!! warning "Blanks mean unknown, not empty"
 
     A blank destination is a run nobody has traced, not a run that goes
@@ -36,6 +41,11 @@ it belongs to. On a phone, swipe the table rather than turning it.
     says: the dimmer exists in the rack with no soca run out of it.
 
 <!-- dr:table circuits-and-dimmers.tsv -->
+
+
+<!---
+oh, was it that line right there???? ^^^
+-->
 
 ## Related
 
