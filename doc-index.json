@@ -2,15 +2,36 @@
   "site": "theatre",
   "name": "Theatre Notes",
   "base_url": "https://mawizorek.github.io/theatre-docs/",
-  "built": "2026-08-03T17:53:43Z",
+  "built": "2026-08-03T18:05:43Z",
   "engine": "0.1.0",
-  "engine_ref": "b6b89352260e3be1e59a633b8ca86146fe21254c",
+  "engine_ref": "b8612f318da58385f2838797ffb09c8eca7315f2",
   "pages": [
     {
       "id": "home",
       "type": "page",
       "title": "Theatre Notes",
       "url": "./",
+      "status": "public"
+    },
+    {
+      "id": "ogunquit-playhouse",
+      "type": "venue",
+      "title": "Ogunquit Playhouse",
+      "url": "venues/ogunquit-playhouse/",
+      "status": "public"
+    },
+    {
+      "id": "oph-circuits",
+      "type": "reference",
+      "title": "Circuits and dimmers",
+      "url": "venues/ogunquit-playhouse/electrics/lighting/circuits-and-dimmers/",
+      "status": "public"
+    },
+    {
+      "id": "oph-dimmer-runs",
+      "type": "reference",
+      "title": "Where the dimmers run",
+      "url": "venues/ogunquit-playhouse/electrics/lighting/where-dimmers-run/",
       "status": "public"
     },
     {
