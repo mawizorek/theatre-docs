@@ -1,0 +1,24 @@
+{
+  "site": "theatre",
+  "name": "Theatre Notes",
+  "base_url": "https://mawizorek.github.io/theatre-docs/",
+  "built": "2026-08-03T17:41:47Z",
+  "engine": "0.1.0",
+  "engine_ref": "b9c4eb39b02e140c3b063a5b520889017a48e6f0",
+  "pages": [
+    {
+      "id": "home",
+      "type": "page",
+      "title": "Theatre Notes",
+      "url": "./",
+      "status": "public"
+    },
+    {
+      "id": "paper-tech",
+      "type": "procedure",
+      "title": "Paper tech",
+      "url": "practice/paper-tech/",
+      "status": "public"
+    }
+  ]
+}
