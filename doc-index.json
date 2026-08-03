@@ -2,9 +2,9 @@
   "site": "theatre",
   "name": "Theatre Notes",
   "base_url": "https://mawizorek.github.io/theatre-docs/",
-  "built": "2026-08-03T18:36:36Z",
+  "built": "2026-08-03T18:48:23Z",
   "engine": "0.1.0",
-  "engine_ref": "d3757edd0453df3e0fdd062da35310dfa4a5b97d",
+  "engine_ref": "3d5e43ddf9c4454719a3ab7b2dd3d7df59f93035",
   "pages": [
     {
       "id": "home",
