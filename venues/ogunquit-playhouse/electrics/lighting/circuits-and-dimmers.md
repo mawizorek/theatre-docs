@@ -31,8 +31,6 @@ it belongs to. On a phone, swipe the table rather than turning it.
 
 <!--
 === ^^^ I want that to be true but it does not work on desktop at least. header and first column DO NOT freeze as scroll on the table.
-
-HOW DOES THIS MARKDOWN KNOW WHERE TO PASTE THE DATA IN THE RENDER???
 -->
 !!! warning "Blanks mean unknown, not empty"
 
@@ -42,9 +40,14 @@ HOW DOES THIS MARKDOWN KNOW WHERE TO PASTE THE DATA IN THE RENDER???
 
 <!-- dr:table circuits-and-dimmers.tsv -->
 
-
 <!---
-oh, was it that line right there???? ^^^
+Can we make the tsp table links actual feel like new gates/tools that we capture and not just a comment in the body.
+something like
+
+[Dispplay_Table](@circuits-and-dimmers.tsv)
+
+rendering that tsp into the page right there.
+
 -->
 
 ## Related
