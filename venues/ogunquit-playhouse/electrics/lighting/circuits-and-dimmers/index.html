@@ -828,8 +828,7 @@
 
 
 <h1 id="circuits-and-dimmers">Circuits and dimmers<a class="headerlink" href="#circuits-and-dimmers" title="Permanent link">&para;</a></h1>
-<p>The rack schedule: every soca run out of the three dimmer racks and the two ML
-panels, what it is called, and where it lands.</p>
+<p class="dr-lede">The rack schedule: every soca run out of the three dimmer racks and the two ML panels, what it is called, and where it lands.</p>
 <p>This is the reference you trace backwards from a dead fixture. Find the circuit
 number, read the rack letter, and the colour column tells you which loom to
 follow in the rack itself.</p>
@@ -841,6 +840,12 @@ a value eight columns to the right still tells you what it is and which circuit
 it belongs to. On a phone, swipe the table rather than turning it.</p>
 <!--
 === ^^^ I want that to be true but it does not work on desktop at least. header and first column DO NOT freeze as scroll on the table.
+
+=== Still open, and now tracked rather than living only here. The engine emits
+the markup; the sticky stylesheet rule is deliberately held until the claim is
+verified on the deployed site, because shipping CSS onto a mechanism that may
+not run is how this got missed the first time. Once it lands, this paragraph
+becomes true and this comment goes.
 -->
 <div class="admonition warning">
 <p class="admonition-title">Blanks mean unknown, not empty</p>
@@ -848,17 +853,1159 @@ it belongs to. On a phone, swipe the table rather than turning it.</p>
 nowhere. <code>No Soca</code> in the notes column is different and does mean what it
 says: the dimmer exists in the rack with no soca run out of it.</p>
 </div>
-<!-- dr:table circuits-and-dimmers.tsv -->
-
-<!---
-Can we make the tsp table links actual feel like new gates/tools that we capture and not just a comment in the body.
-something like
-
-<span class="docrender-dead" title="references point at ids, not filenames: circuits-and-dimmers.tsv">Dispplay_Table</span>
-
-rendering that tsp into the page right there.
-
--->
+<div class="dr-data" id="data-schedule">
+<table class="dr-data__table">
+<thead><tr>
+<th></th>
+<th>Circuit #S</th>
+<th>Rack</th>
+<th>General Area it Comes from</th>
+<th>General Area it runs to</th>
+<th>Secondary Name if Applicable</th>
+<th>Color in Rack</th>
+<th>Notes</th>
+</tr></thead>
+<tbody>
+<tr class="dr-data__section"><th colspan="8">RACK 1</th></tr>
+<tr>
+<td>R1A</td>
+<td>1-6</td>
+<td>1</td>
+<td>DIMMER ROOM DS RACK</td>
+<td>FOH GRID</td>
+<td>APRON</td>
+<td>RED</td>
+<td></td>
+</tr>
+<tr>
+<td>R1B</td>
+<td>7-12</td>
+<td>1</td>
+<td>DIMMER ROOM DS RACK</td>
+<td>FOH GRID</td>
+<td>APRON</td>
+<td>ORANGE</td>
+<td></td>
+</tr>
+<tr>
+<td>R1C</td>
+<td>13-18</td>
+<td>1</td>
+<td>DIMMER ROOM DS RACK</td>
+<td>FOH GRID</td>
+<td>FOH 4 BALCONY</td>
+<td>YELLOW</td>
+<td></td>
+</tr>
+<tr>
+<td>R1D</td>
+<td>19-24</td>
+<td>1</td>
+<td>DIMMER ROOM DS RACK</td>
+<td>FOH GRID</td>
+<td>FOH 3 BOOMQUEESHA</td>
+<td>GREEN</td>
+<td></td>
+</tr>
+<tr>
+<td>R1E</td>
+<td>25-30</td>
+<td>1</td>
+<td>DIMMER ROOM DS RACK</td>
+<td>BOX BOOM WHOLE</td>
+<td>BOX BOOM SR</td>
+<td>BLUE</td>
+<td></td>
+</tr>
+<tr>
+<td>R1F</td>
+<td>31-36</td>
+<td>1</td>
+<td>DIMMER ROOM DS RACK</td>
+<td>BOX BOOM WHOLE</td>
+<td>BOX BOOM SR</td>
+<td>PURPLE</td>
+<td></td>
+</tr>
+<tr>
+<td>R1G</td>
+<td>37-42</td>
+<td>1</td>
+<td>DIMMER ROOM DS RACK</td>
+<td>BOX BOOM WHOLE</td>
+<td>FUNK SR</td>
+<td>GREY</td>
+<td></td>
+</tr>
+<tr>
+<td>R1H</td>
+<td>43-48</td>
+<td>1</td>
+<td>DIMMER ROOM DS RACK</td>
+<td>BOX BOOM WHOLE</td>
+<td>Apron Boom SR 1</td>
+<td>BROWN</td>
+<td></td>
+</tr>
+<tr>
+<td>R1J</td>
+<td>49-54</td>
+<td>1</td>
+<td>DIMMER ROOM DS RACK</td>
+<td>BOX BOOM WHOLE</td>
+<td>AUD BM SR 2</td>
+<td>WHITE</td>
+<td></td>
+</tr>
+<tr>
+<td>R1K</td>
+<td>55-60</td>
+<td>1</td>
+<td>DIMMER ROOM DS RACK</td>
+<td>BOX BOOM WHOLE</td>
+<td>SIDE SPOT SR/ AUD BM SR 2</td>
+<td>BLACK</td>
+<td></td>
+</tr>
+<tr>
+<td>R1L</td>
+<td>61-66</td>
+<td>1</td>
+<td>DIMMER ROOM DS RACK</td>
+<td>TORM</td>
+<td>TORM SR</td>
+<td>RED</td>
+<td></td>
+</tr>
+<tr>
+<td>R1M</td>
+<td>67-72</td>
+<td>1</td>
+<td>DIMMER ROOM DS RACK</td>
+<td>TORM</td>
+<td>TORM SR</td>
+<td>ORANGE</td>
+<td></td>
+</tr>
+<tr>
+<td>R1N</td>
+<td>73-78</td>
+<td>1</td>
+<td>DIMMER ROOM DS RACK</td>
+<td>GRID SR</td>
+<td>GRID SR</td>
+<td>YELLOW</td>
+<td></td>
+</tr>
+<tr>
+<td>R1P</td>
+<td>79-84</td>
+<td>1</td>
+<td>DIMMER ROOM DS RACK</td>
+<td>SL WEIGHT RAIL</td>
+<td>GRID SL/ GRID SPARE 1</td>
+<td>GREEN</td>
+<td>SPARE</td>
+</tr>
+<tr>
+<td>R1Q</td>
+<td>85-90</td>
+<td>1</td>
+<td>DIMMER ROOM DS RACK</td>
+<td>GRID SR</td>
+<td>GRID SR/ GRID SPARE 2</td>
+<td>BLUE</td>
+<td>SET LX</td>
+</tr>
+<tr>
+<td>R1R</td>
+<td>91-96</td>
+<td>1</td>
+<td>DIMMER ROOM DS RACK</td>
+<td>FOH GRID</td>
+<td>BOOTH</td>
+<td>PURPLE</td>
+<td>Spare</td>
+</tr>
+<tr>
+<td>R1S</td>
+<td>97-102</td>
+<td>1</td>
+<td>DIMMER ROOM DS RACK</td>
+<td>GRID SR</td>
+<td>OH ELEC 1</td>
+<td>GREY</td>
+<td></td>
+</tr>
+<tr>
+<td>R1T</td>
+<td>103-108</td>
+<td>1</td>
+<td>DIMMER ROOM DS RACK</td>
+<td>GRID SR</td>
+<td>OH ELEC 1</td>
+<td>BROWN</td>
+<td></td>
+</tr>
+<tr>
+<td>R1U</td>
+<td>109-114</td>
+<td>1</td>
+<td>DIMMER ROOM DS RACK</td>
+<td>GRID SR</td>
+<td>OH ELEC 1</td>
+<td>WHITE</td>
+<td></td>
+</tr>
+<tr>
+<td>R1V</td>
+<td>115-120</td>
+<td>1</td>
+<td>DIMMER ROOM DS RACK</td>
+<td>GRID SR</td>
+<td>OH ELEC 1</td>
+<td>BLACK</td>
+<td></td>
+</tr>
+<tr>
+<td>R1W</td>
+<td>121-126</td>
+<td>1</td>
+<td>DIMMER ROOM DS RACK</td>
+<td>GRID SR</td>
+<td>OH ELEC 1</td>
+<td>RED</td>
+<td></td>
+</tr>
+<tr>
+<td>R1X</td>
+<td>127-132</td>
+<td>1</td>
+<td>DIMMER ROOM DS RACK</td>
+<td>FOH GRID</td>
+<td>FOH 1</td>
+<td>ORANGE</td>
+<td></td>
+</tr>
+<tr>
+<td>R1Y</td>
+<td>133-138</td>
+<td>1</td>
+<td>DIMMER ROOM DS RACK</td>
+<td>GRID SR</td>
+<td>LADDER SR</td>
+<td>YELLOW</td>
+<td></td>
+</tr>
+<tr>
+<td>R1Z</td>
+<td>139-144</td>
+<td>1</td>
+<td>DIMMER ROOM DS RACK</td>
+<td></td>
+<td></td>
+<td>GREEN</td>
+<td></td>
+</tr>
+<tr>
+<td>R1zAA</td>
+<td>145-150</td>
+<td></td>
+<td>DIMMER ROOM DS RACK</td>
+<td></td>
+<td></td>
+<td>BLUE</td>
+<td>No Soca</td>
+</tr>
+<tr>
+<td>R1zBB</td>
+<td>151-156</td>
+<td></td>
+<td>DIMMER ROOM DS RACK</td>
+<td></td>
+<td></td>
+<td>PURPLE</td>
+<td>No Soca</td>
+</tr>
+<tr>
+<td>R1zCC</td>
+<td>157-162</td>
+<td></td>
+<td>DIMMER ROOM DS RACK</td>
+<td></td>
+<td></td>
+<td>GREY</td>
+<td>No Soca</td>
+</tr>
+<tr>
+<td>R1zDD</td>
+<td>163-168</td>
+<td></td>
+<td>DIMMER ROOM DS RACK</td>
+<td></td>
+<td></td>
+<td>BROWN</td>
+<td>No Soca</td>
+</tr>
+<tr>
+<td>R1zEE</td>
+<td>169-174</td>
+<td></td>
+<td>DIMMER ROOM DS RACK</td>
+<td></td>
+<td></td>
+<td>WHITE</td>
+<td>No Soca</td>
+</tr>
+<tr>
+<td>R1zFF</td>
+<td>175-180</td>
+<td></td>
+<td>DIMMER ROOM DS RACK</td>
+<td></td>
+<td></td>
+<td>BLACK</td>
+<td>No Soca</td>
+</tr>
+<tr>
+<td>R1zGG</td>
+<td>181-186</td>
+<td></td>
+<td>DIMMER ROOM DS RACK</td>
+<td></td>
+<td></td>
+<td>RED</td>
+<td>No Soca</td>
+</tr>
+<tr>
+<td>R1zHH</td>
+<td>187-193</td>
+<td></td>
+<td>DIMMER ROOM DS RACK</td>
+<td></td>
+<td></td>
+<td>ORANGE</td>
+<td>No Soca</td>
+</tr>
+<tr>
+<td>R1zJJ</td>
+<td></td>
+<td>1</td>
+<td>DIMMER ROOM DS RACK</td>
+<td>FOH BEAM 2</td>
+<td></td>
+<td></td>
+<td>STAGE PIN INTO RACK</td>
+</tr>
+<tr class="dr-data__section"><th colspan="8">RACK 2</th></tr>
+<tr>
+<td>R2A</td>
+<td>1-6</td>
+<td>2</td>
+<td>DIMMER ROOM US RACK</td>
+<td>FOH GRID</td>
+<td>APRON</td>
+<td>RED</td>
+<td></td>
+</tr>
+<tr>
+<td>R2B</td>
+<td>7-12</td>
+<td>2</td>
+<td>DIMMER ROOM US RACK</td>
+<td>FOH GRID</td>
+<td>APRON</td>
+<td>ORANGE</td>
+<td></td>
+</tr>
+<tr>
+<td>R2C</td>
+<td>13-18</td>
+<td>2</td>
+<td>DIMMER ROOM US RACK</td>
+<td>FOH GRID</td>
+<td>FOH 4 BALCONY</td>
+<td>YELLOW</td>
+<td></td>
+</tr>
+<tr>
+<td>R2D</td>
+<td>19-24</td>
+<td>2</td>
+<td>DIMMER ROOM US RACK</td>
+<td>FOH GRID</td>
+<td>FOH 3 BOOMQUEESHA</td>
+<td>GREEN</td>
+<td></td>
+</tr>
+<tr>
+<td>R2E</td>
+<td>25-30</td>
+<td>2</td>
+<td>DIMMER ROOM US RACK</td>
+<td>BOX BOOM WHOLE</td>
+<td>BOX BOOM SL</td>
+<td>BLUE</td>
+<td></td>
+</tr>
+<tr>
+<td>R2F</td>
+<td>31-36</td>
+<td>2</td>
+<td>DIMMER ROOM US RACK</td>
+<td>BOX BOOM WHOLE</td>
+<td>BOX BOOM SL</td>
+<td>PURPLE</td>
+<td></td>
+</tr>
+<tr>
+<td>R2G</td>
+<td>37-42</td>
+<td>2</td>
+<td>DIMMER ROOM US RACK</td>
+<td>BOX BOOM WHOLE</td>
+<td>FUNK SL</td>
+<td>GREY</td>
+<td></td>
+</tr>
+<tr>
+<td>R2H</td>
+<td>43-48</td>
+<td>2</td>
+<td>DIMMER ROOM US RACK</td>
+<td>BOX BOOM WHOLE</td>
+<td>APRON BOOM SL</td>
+<td>BROWN</td>
+<td></td>
+</tr>
+<tr>
+<td>R2J</td>
+<td>49-54</td>
+<td>2</td>
+<td>DIMMER ROOM US RACK</td>
+<td>BOX BOOM WHOLE</td>
+<td>AUD BM 2 SL</td>
+<td>WHITE</td>
+<td></td>
+</tr>
+<tr>
+<td>R2K</td>
+<td>55-60</td>
+<td>2</td>
+<td>DIMMER ROOM US RACK</td>
+<td>BOX BOOM WHOLE</td>
+<td>AUD BM 2 SL</td>
+<td>BLACK</td>
+<td></td>
+</tr>
+<tr>
+<td>R2L</td>
+<td>61-66</td>
+<td>2</td>
+<td>DIMMER ROOM US RACK</td>
+<td>TORM</td>
+<td>TORM SL</td>
+<td>RED</td>
+<td></td>
+</tr>
+<tr>
+<td>R2M</td>
+<td>67-72</td>
+<td>2</td>
+<td>DIMMER ROOM US RACK</td>
+<td>TORM</td>
+<td>TORM SL</td>
+<td>ORANGE</td>
+<td></td>
+</tr>
+<tr>
+<td>R2N</td>
+<td>73-78</td>
+<td>2</td>
+<td>DIMMER ROOM US RACK</td>
+<td>SL WEIGHT RAIL</td>
+<td>GRID SL</td>
+<td>YELLOW</td>
+<td>Set LX</td>
+</tr>
+<tr>
+<td>R2P</td>
+<td>79-84</td>
+<td>2</td>
+<td>DIMMER ROOM US RACK</td>
+<td>FOH GRID</td>
+<td>FOH 2 SP 1</td>
+<td>GREEN</td>
+<td></td>
+</tr>
+<tr>
+<td>R2Q</td>
+<td>85-90</td>
+<td>2</td>
+<td>DIMMER ROOM US RACK</td>
+<td>FOH GRID</td>
+<td>FOH 2 SP 2</td>
+<td>BLUE</td>
+<td></td>
+</tr>
+<tr>
+<td>R2R</td>
+<td>91-96</td>
+<td>2</td>
+<td>DIMMER ROOM US RACK</td>
+<td>FOH GRID</td>
+<td>FOH 2 SP 3</td>
+<td>PURPLE</td>
+<td></td>
+</tr>
+<tr>
+<td>R2S</td>
+<td>97-102</td>
+<td>2</td>
+<td>DIMMER ROOM US RACK</td>
+<td>NFG</td>
+<td>NFG</td>
+<td>GREY</td>
+<td></td>
+</tr>
+<tr>
+<td>R2T</td>
+<td>103-108</td>
+<td>2</td>
+<td>DIMMER ROOM US RACK</td>
+<td>SR GRID</td>
+<td>OH ELEC 2</td>
+<td>BROWN</td>
+<td></td>
+</tr>
+<tr>
+<td>R2U</td>
+<td>109-114</td>
+<td>2</td>
+<td>DIMMER ROOM US RACK</td>
+<td>SR GRID</td>
+<td>OH ELEC 2</td>
+<td>WHITE</td>
+<td></td>
+</tr>
+<tr>
+<td>R2V</td>
+<td>115-120</td>
+<td>2</td>
+<td>DIMMER ROOM US RACK</td>
+<td>SR GRID</td>
+<td></td>
+<td>BLACK</td>
+<td></td>
+</tr>
+<tr>
+<td>R2W</td>
+<td>121-126</td>
+<td>2</td>
+<td>DIMMER ROOM US RACK</td>
+<td>SR GRID</td>
+<td>FOH 1</td>
+<td>RED</td>
+<td></td>
+</tr>
+<tr>
+<td>R2X</td>
+<td>127-132</td>
+<td>2</td>
+<td>DIMMER ROOM US RACK</td>
+<td>???</td>
+<td></td>
+<td>ORANGE</td>
+<td></td>
+</tr>
+<tr>
+<td>R2Y</td>
+<td>133-138</td>
+<td>2</td>
+<td>DIMMER ROOM US RACK</td>
+<td>SR GRID</td>
+<td>1 LADDER SL</td>
+<td>YELLOW</td>
+<td></td>
+</tr>
+<tr>
+<td>R2Z</td>
+<td>139-144</td>
+<td>2</td>
+<td>DIMMER ROOM US RACK</td>
+<td>SR GRID</td>
+<td>OH ELEC 2</td>
+<td>GREEN</td>
+<td></td>
+</tr>
+<tr>
+<td>R2zAA</td>
+<td>139-144</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>BLUE</td>
+<td>No Soca</td>
+</tr>
+<tr>
+<td>R2zBB</td>
+<td>145-150</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>PURPLE</td>
+<td>No Soca</td>
+</tr>
+<tr>
+<td>R2zCC</td>
+<td>151-156</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>GREY</td>
+<td>No Soca</td>
+</tr>
+<tr>
+<td>R2zDD</td>
+<td>157-162</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>BROWN</td>
+<td>No Soca</td>
+</tr>
+<tr>
+<td>R2zEE</td>
+<td>163-168</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>WHITE</td>
+<td>No Soca</td>
+</tr>
+<tr>
+<td>R2zFF</td>
+<td>169-174</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>BLACK</td>
+<td>No Soca</td>
+</tr>
+<tr>
+<td>R2zGG</td>
+<td>175-180</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>RED</td>
+<td>No Soca</td>
+</tr>
+<tr>
+<td>R2zHH</td>
+<td>181-186</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>ORANGE</td>
+<td>No Soca</td>
+</tr>
+<tr>
+<td>R2zJJ</td>
+<td></td>
+<td>2</td>
+<td>DIMMER ROOM US RACK</td>
+<td>VARIOUS WORK LIGHTS/ HOUSE LIGHTS</td>
+<td></td>
+<td></td>
+<td>STAGE PIN INTO RACK</td>
+</tr>
+<tr class="dr-data__section"><th colspan="8">RACK 3</th></tr>
+<tr>
+<td>R3A</td>
+<td>1-6</td>
+<td>3</td>
+<td>USL IN CROSSOVER</td>
+<td>SL WEIGHT RAIL</td>
+<td>SIDE LIGHT 2 SL</td>
+<td>RED</td>
+<td></td>
+</tr>
+<tr>
+<td>R3B</td>
+<td>7-12</td>
+<td>3</td>
+<td>USL IN CROSSOVER</td>
+<td>GRID SR</td>
+<td>SIDE LIGHT 2 SR</td>
+<td>ORANGE</td>
+<td></td>
+</tr>
+<tr>
+<td>R3C</td>
+<td>13-18</td>
+<td>3</td>
+<td>USL IN CROSSOVER</td>
+<td>NFG</td>
+<td>NFG</td>
+<td>YELLOW</td>
+<td></td>
+</tr>
+<tr>
+<td>R3D</td>
+<td>19-24</td>
+<td>3</td>
+<td>USL IN CROSSOVER</td>
+<td>GRID SR</td>
+<td>SIDE LIGHT 3 SR</td>
+<td>GREEN</td>
+<td></td>
+</tr>
+<tr>
+<td>R3E</td>
+<td>25-30</td>
+<td>3</td>
+<td>USL IN CROSSOVER</td>
+<td>SL WEIGHT RAIL</td>
+<td>SIDE LIGHT 4 SL</td>
+<td>BLUE</td>
+<td></td>
+</tr>
+<tr>
+<td>R3F</td>
+<td>31-36</td>
+<td>3</td>
+<td>USL IN CROSSOVER</td>
+<td>GRID SR</td>
+<td>SIDE LIGHT 4 SR</td>
+<td>PURPLE</td>
+<td></td>
+</tr>
+<tr>
+<td>R3G</td>
+<td>37-42</td>
+<td>3</td>
+<td>USL IN CROSSOVER</td>
+<td>GRID SL</td>
+<td>5TH LX</td>
+<td>GREY</td>
+<td></td>
+</tr>
+<tr>
+<td>R3H</td>
+<td>43-48</td>
+<td>3</td>
+<td>USL IN CROSSOVER</td>
+<td>GRID SL</td>
+<td>5TH LX</td>
+<td>BROWN</td>
+<td></td>
+</tr>
+<tr>
+<td>R3J</td>
+<td>49-54</td>
+<td>3</td>
+<td>USL IN CROSSOVER</td>
+<td>SL WEIGHT RAIL</td>
+<td>SIDE LIGHT 3 SL</td>
+<td>WHITE</td>
+<td></td>
+</tr>
+<tr>
+<td>R3K</td>
+<td>55-60</td>
+<td>3</td>
+<td>USL IN CROSSOVER</td>
+<td></td>
+<td></td>
+<td>BLACK</td>
+<td></td>
+</tr>
+<tr>
+<td>R3L</td>
+<td>61-66</td>
+<td>3</td>
+<td>USL IN CROSSOVER</td>
+<td></td>
+<td></td>
+<td>RED</td>
+<td></td>
+</tr>
+<tr>
+<td>R3M</td>
+<td>67-72</td>
+<td>3</td>
+<td>USL IN CROSSOVER</td>
+<td></td>
+<td></td>
+<td>ORANGE</td>
+<td></td>
+</tr>
+<tr>
+<td>R3N</td>
+<td>73-78</td>
+<td>3</td>
+<td>USL IN CROSSOVER</td>
+<td></td>
+<td></td>
+<td>YELLOW</td>
+<td></td>
+</tr>
+<tr>
+<td>R3P</td>
+<td>79-84</td>
+<td>3</td>
+<td>USL IN CROSSOVER</td>
+<td></td>
+<td></td>
+<td>GREEN</td>
+<td></td>
+</tr>
+<tr>
+<td>R3Q</td>
+<td>85-90</td>
+<td>3</td>
+<td>USL IN CROSSOVER</td>
+<td></td>
+<td></td>
+<td>BLUE</td>
+<td></td>
+</tr>
+<tr>
+<td>R3R</td>
+<td>91-96</td>
+<td>3</td>
+<td>USL IN CROSSOVER</td>
+<td></td>
+<td></td>
+<td>PURPLE</td>
+<td></td>
+</tr>
+<tr>
+<td>R3S</td>
+<td>97-102</td>
+<td>3</td>
+<td>USL IN CROSSOVER</td>
+<td>SR GRID</td>
+<td>OH ELEC 3</td>
+<td>GREY</td>
+<td></td>
+</tr>
+<tr>
+<td>R3T</td>
+<td>103-108</td>
+<td>3</td>
+<td>USL IN CROSSOVER</td>
+<td>SR GRID</td>
+<td>OH ELEC 3</td>
+<td>BROWN</td>
+<td></td>
+</tr>
+<tr>
+<td>R3U</td>
+<td>109-114</td>
+<td>3</td>
+<td>USL IN CROSSOVER</td>
+<td>SR GRID</td>
+<td>OH ELEC 3</td>
+<td>WHITE</td>
+<td></td>
+</tr>
+<tr>
+<td>R3V</td>
+<td>115-120</td>
+<td>3</td>
+<td>USL IN CROSSOVER</td>
+<td>SR GRID</td>
+<td></td>
+<td>BLACK</td>
+<td></td>
+</tr>
+<tr>
+<td>R3W</td>
+<td>121-126</td>
+<td>3</td>
+<td>USL IN CROSSOVER</td>
+<td>SR GRID</td>
+<td></td>
+<td>RED</td>
+<td></td>
+</tr>
+<tr>
+<td>R3X</td>
+<td>133-138</td>
+<td>3</td>
+<td>USL IN CROSSOVER</td>
+<td>SR GRID</td>
+<td></td>
+<td>ORANGE</td>
+<td></td>
+</tr>
+<tr>
+<td>R3Y</td>
+<td>127-132</td>
+<td>3</td>
+<td>USL IN CROSSOVER</td>
+<td>SR GRID</td>
+<td></td>
+<td>YELLOW</td>
+<td></td>
+</tr>
+<tr>
+<td>R3Z</td>
+<td>133-138</td>
+<td>3</td>
+<td>USL IN CROSSOVER</td>
+<td>SR GRID</td>
+<td></td>
+<td>GREEN</td>
+<td></td>
+</tr>
+<tr>
+<td>R3zAA</td>
+<td>139-144</td>
+<td>3</td>
+<td>USL IN CROSSOVER</td>
+<td>SR GRID</td>
+<td></td>
+<td>BLUE</td>
+<td>Set LX SR</td>
+</tr>
+<tr>
+<td>R3zBB</td>
+<td>145-150</td>
+<td>3</td>
+<td>USL IN CROSSOVER</td>
+<td>SR GRID</td>
+<td></td>
+<td>PURPLE</td>
+<td></td>
+</tr>
+<tr>
+<td>R3zCC</td>
+<td>151-156</td>
+<td>3</td>
+<td>USL IN CROSSOVER</td>
+<td></td>
+<td></td>
+<td>GREY</td>
+<td>No Soca</td>
+</tr>
+<tr>
+<td>R3zDD</td>
+<td>157-162</td>
+<td>3</td>
+<td>USL IN CROSSOVER</td>
+<td></td>
+<td></td>
+<td>BROWN</td>
+<td>No Soca</td>
+</tr>
+<tr>
+<td>R3zEE</td>
+<td>163-168</td>
+<td>3</td>
+<td>USL IN CROSSOVER</td>
+<td></td>
+<td></td>
+<td>WHITE</td>
+<td>No Soca</td>
+</tr>
+<tr>
+<td>R3zFF</td>
+<td>169-174</td>
+<td>3</td>
+<td>USL IN CROSSOVER</td>
+<td></td>
+<td></td>
+<td>BLACK</td>
+<td>No Soca</td>
+</tr>
+<tr>
+<td>R3zGG</td>
+<td>175-180</td>
+<td>3</td>
+<td>USL IN CROSSOVER</td>
+<td></td>
+<td></td>
+<td>RED</td>
+<td>No Soca</td>
+</tr>
+<tr>
+<td>R3zHH</td>
+<td>181-186</td>
+<td>3</td>
+<td>USL IN CROSSOVER</td>
+<td></td>
+<td></td>
+<td>ORANGE</td>
+<td>No Soca</td>
+</tr>
+<tr class="dr-data__section"><th colspan="8">ML PANEL 1</th></tr>
+<tr>
+<td>M1A</td>
+<td>1-6</td>
+<td></td>
+<td>SR NEXT TO DIMMER ROOM</td>
+<td>SR GRID</td>
+<td>OH ELEC 1</td>
+<td></td>
+<td>Only Some of these are usable, What is plugged into ML PANEL 1</td>
+</tr>
+<tr>
+<td>M1B</td>
+<td>1-6</td>
+<td></td>
+<td>SR NEXT TO DIMMER ROOM</td>
+<td>SR GRID</td>
+<td>OH ELEC 2</td>
+<td></td>
+<td>Only Some of these are usable, What is plugged into ML PANEL 1</td>
+</tr>
+<tr>
+<td>M1C</td>
+<td>1-6</td>
+<td></td>
+<td>SR NEXT TO DIMMER ROOM</td>
+<td>FOH GRID</td>
+<td>APRON</td>
+<td></td>
+<td>Only Some of these are usable, What is plugged into ML PANEL 1</td>
+</tr>
+<tr>
+<td>M1D</td>
+<td>1-6</td>
+<td></td>
+<td>SR NEXT TO DIMMER ROOM</td>
+<td>SR SPOT WHOLE</td>
+<td>FUNK Pipes</td>
+<td></td>
+<td>Only Some of these are usable, What is plugged into ML PANEL 1</td>
+</tr>
+<tr class="dr-data__section"><th colspan="8">ML PANEL 2</th></tr>
+<tr>
+<td>M2A</td>
+<td>1-6</td>
+<td>3</td>
+<td>ON RACK 3 SL SIDE</td>
+<td>SR GRID</td>
+<td>OH ELEC 3</td>
+<td></td>
+<td>Only Some of these are usable, What is plugged into ML PANEL 2</td>
+</tr>
+<tr>
+<td>M2B</td>
+<td>2</td>
+<td>3</td>
+<td>ON RACK 3 SL SIDE</td>
+<td>SR GRID</td>
+<td>OH ELEC 4</td>
+<td></td>
+<td>Only Some of these are usable, What is plugged into ML PANEL 2</td>
+</tr>
+<tr>
+<td>M2B</td>
+<td>4</td>
+<td>3</td>
+<td>ON RACK 3 SL SIDE</td>
+<td>SR GRID</td>
+<td>OH ELEC 4</td>
+<td></td>
+<td>Only Some of these are usable, What is plugged into ML PANEL 2</td>
+</tr>
+<tr>
+<td>M2B</td>
+<td>6</td>
+<td>3</td>
+<td>ON RACK 3 SL SIDE</td>
+<td>SR GRID</td>
+<td>OH ELEC 4</td>
+<td></td>
+<td>Only Some of these are usable, What is plugged into ML PANEL 2</td>
+</tr>
+<tr>
+<td>M2C</td>
+<td>1</td>
+<td>3</td>
+<td>ON RACK 3 SL SIDE</td>
+<td>SL SPOT WHOLE</td>
+<td>FUNK Pipes</td>
+<td></td>
+<td>Only Some of these are usable, What is plugged into ML PANEL 2</td>
+</tr>
+<tr>
+<td>M2D</td>
+<td>1-3</td>
+<td>3</td>
+<td>ON RACK 3 SL SIDE</td>
+<td>GROUND ROW</td>
+<td></td>
+<td></td>
+<td>Only Some of these are usable, What is plugged into ML PANEL 2</td>
+</tr>
+<tr>
+<td>M2D</td>
+<td>4-6</td>
+<td>3</td>
+<td>ON RACK 3 SL SIDE</td>
+<td></td>
+<td></td>
+<td></td>
+<td>Only Some of these are usable, What is plugged into ML PANEL 2</td>
+</tr>
+<tr class="dr-data__section"><th colspan="8">RACK 2</th></tr>
+<tr>
+<td>TURKEY 1</td>
+<td></td>
+<td></td>
+<td>SR NEXT TO DIMMER ROOM</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>TURKEY 2</td>
+<td></td>
+<td></td>
+<td>SR NEXT TO DIMMER ROOM</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>TURKEY 3</td>
+<td></td>
+<td></td>
+<td>SR NEXT TO DIMMER ROOM</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="dr-data__section"><th colspan="8">[HR] 287</th></tr>
+<tr class="dr-data__section"><th colspan="8">[HR] 288</th></tr>
+<tr class="dr-data__section"><th colspan="8">[HR] 293</th></tr>
+<tr class="dr-data__section"><th colspan="8">[HR] 294</th></tr>
+<tr class="dr-data__section"><th colspan="8">[HR] 387</th></tr>
+<tr class="dr-data__section"><th colspan="8">[HR] 388</th></tr>
+<tr class="dr-data__section"><th colspan="8">[HR] AUDIO CUE</th></tr>
+<tr class="dr-data__section"><th colspan="8">[HR] Blue Runs</th></tr>
+<tr class="dr-data__section"><th colspan="8">[HR] Ghosts</th></tr>
+<tr class="dr-data__section"><th colspan="8">[HR][Q] Rail (A)</th></tr>
+<tr class="dr-data__section"><th colspan="8">[HR][Q] Rail (R)</th></tr>
+</tbody></table>
+<p class="dr-data__source">112 rows &middot; <a href="circuits-and-dimmers.tsv" download>circuits-and-dimmers.tsv</a></p>
+</div>
 
 <h2 id="related">Related<a class="headerlink" href="#related" title="Permanent link">&para;</a></h2>
 <ul>
@@ -943,7 +2090,7 @@ rendering that tsp into the page right there.
       <div class="md-copyright">
   
     <div class="md-copyright__highlight">
-      <span class="buildstamp" title="Deployed 04 Aug 2026, 00:58 ET · engine d97f35a · content 88e3f3e">88e3f3e</span>
+      <span class="buildstamp" title="Deployed 04 Aug 2026, 01:00 ET · engine f2045e9 · content fd27754">PR #4</span>
     </div>
   
   
