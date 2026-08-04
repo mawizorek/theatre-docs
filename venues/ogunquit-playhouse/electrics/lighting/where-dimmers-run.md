@@ -5,17 +5,17 @@ type: reference
 status: public
 parent: ogunquit-playhouse
 order: 20
-maintainer: Master electrician
 source: Field survey, July 2024
 revised: 2026-08
+summary: >-
+  The field survey: what each circuit is currently on, walked and recorded in
+  July 2024, as against what the rack schedule says it should be.
 data:
-  - where-dimmers-run.tsv
+  survey:
+    file: where-dimmers-run.tsv
 ---
 
 # Where the dimmers run
-
-The field survey: what each circuit is **currently on**, walked and recorded in
-July 2024, as against what the rack schedule says it should be.
 
 Two documents rather than one, on purpose. The [rack schedule](@oph-circuits)
 is the design; this is the observation. Merging them would quietly overwrite
@@ -30,12 +30,12 @@ is being able to see where they disagree.
 
 ## The asterisks and question marks are deliberate
 
-`R27??` and `R3zAA* (unlisted on label)` are the surveyor's own uncertainty,
+`R27??` and `R3zAA * (unlisted on label)` are the surveyor's own uncertainty,
 preserved exactly as written. **Do not clean them up.** A marked doubt is
 information; the same cell tidied into a confident value is a trap for whoever
 reads it next.
 
-<!-- dr:table where-dimmers-run.tsv -->
+!!! data "survey"
 
 ## Related
 

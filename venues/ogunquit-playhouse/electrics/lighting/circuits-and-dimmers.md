@@ -5,16 +5,16 @@ type: reference
 status: public
 parent: ogunquit-playhouse
 order: 10
-maintainer: Master electrician
 revised: 2026-08
+summary: >-
+  The rack schedule: every soca run out of the three dimmer racks and the two ML
+  panels, what it is called, and where it lands.
 data:
-  - circuits-and-dimmers.tsv
+  schedule:
+    file: circuits-and-dimmers.tsv
 ---
 
 # Circuits and dimmers
-
-The rack schedule: every soca run out of the three dimmer racks and the two ML
-panels, what it is called, and where it lands.
 
 This is the reference you trace backwards from a dead fixture. Find the circuit
 number, read the rack letter, and the colour column tells you which loom to
@@ -31,6 +31,12 @@ it belongs to. On a phone, swipe the table rather than turning it.
 
 <!--
 === ^^^ I want that to be true but it does not work on desktop at least. header and first column DO NOT freeze as scroll on the table.
+
+=== Still open, and now tracked rather than living only here. The engine emits
+the markup; the sticky stylesheet rule is deliberately held until the claim is
+verified on the deployed site, because shipping CSS onto a mechanism that may
+not run is how this got missed the first time. Once it lands, this paragraph
+becomes true and this comment goes.
 -->
 !!! warning "Blanks mean unknown, not empty"
 
@@ -38,17 +44,7 @@ it belongs to. On a phone, swipe the table rather than turning it.
     nowhere. `No Soca` in the notes column is different and does mean what it
     says: the dimmer exists in the rack with no soca run out of it.
 
-<!-- dr:table circuits-and-dimmers.tsv -->
-
-<!---
-Can we make the tsp table links actual feel like new gates/tools that we capture and not just a comment in the body.
-something like
-
-[Dispplay_Table](@circuits-and-dimmers.tsv)
-
-rendering that tsp into the page right there.
-
--->
+!!! data "schedule"
 
 ## Related
 
